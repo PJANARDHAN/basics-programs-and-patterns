@@ -1,0 +1,24 @@
+public class Program
+{
+    public static void main(String[] args) {
+        c obj=new c();
+        obj.show ();
+    }
+}
+
+class a{
+    public void show(){
+        System .out .println ("hai");
+    }
+}
+class b extends  a{
+    public void show(){
+        System .out.println ("hello");
+    }
+}
+
+class c extends b{
+    public void show (){
+        System .out.println ("thanks");
+    }
+}

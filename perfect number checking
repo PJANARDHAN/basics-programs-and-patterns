@@ -1,0 +1,27 @@
+import java.util.Scanner ; 
+public class Program
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner (System .in);
+        int num=sc.nextInt();
+        int sum=0;
+        if(num>0){
+        for(int i=1;i<num;i++){
+        //num=6 -> 1+2+3=6; perfect
+        //num=10-> 1+2+5=8; not perfect number
+        //num=28-> 1+2+4+7+14=28; perfect 
+            if(num%i==0){
+                sum+=i;
+            }
+        }
+        if(sum==num){
+            System .out.println("perfect");
+        }else{
+            System .out.println("not perfect");
+        }
+        }
+        else{
+            System .out.println ("plz enter positive num");
+        }
+    }
+}

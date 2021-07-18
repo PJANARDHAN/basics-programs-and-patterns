@@ -1,0 +1,10 @@
+public class Program
+{
+    public static void main(String[] args) {
+        String  a=" ";
+        String b=null;
+        String b="hello java";
+        System .out.println ("1" + a.isEmpty());
+        System .out.println ("2"+ c.isEmpty ());
+    }
+}

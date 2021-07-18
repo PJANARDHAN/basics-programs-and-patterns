@@ -1,0 +1,24 @@
+import java.util.Scanner ;
+public class Program
+{
+    public static void main(String[] args) {
+    Scanner sc =new Scanner (System.in);
+        String  orginal= "1234";
+        int length= orginal.length();
+        int i, start,end,middle;
+        start=0;
+        end=length-1;
+        middle=(start+end)/2;
+        for(i=start;i<=middle;i++){
+            if(orginal.charAt(start )==orginal.charAt(end)){
+                start++;
+                end--;
+            } else 
+            break;
+        }
+        if(i==middle+1)
+        System.out.println("palindrome");
+        else
+        System.out.println("not palindrome");
+    }
+}

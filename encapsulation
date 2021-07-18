@@ -1,0 +1,29 @@
+public class Program
+{
+    public static void main(String[] args) {
+        emp e1=new emp();
+        e1.setEmpid (74);
+        e1.setEmpname("janardhan");
+        System .out.println (e1.getEmpid ());
+        System .out.println (e1.getEmpname ());
+    }
+    
+}
+
+class emp{
+    private int empid;
+    private String  empname;
+    
+    public void setEmpid(int empid){
+        this.empid=empid;
+    }
+    public int getEmpid(){
+        return empid ;
+    }
+    public void setEmpname(String empname){
+        this.empname =empname;
+    }
+    public String  getEmpname(){
+        return empname ;
+    }
+}

@@ -1,0 +1,27 @@
+#include <iostream>
+#include<string.h>
+using namespace std;
+class oops{
+    int a;
+    string b; float c;
+    public:
+    void setter()
+    {
+        a=0;
+        c=1e-3;
+    }
+    
+    void getter()
+    {
+        cout<<"This is the a "<<a<<"\n";
+        cout<<"This is the b "<<b<<"\n";
+        cout<<"This is the c"<<c<<"\n";
+        
+    }
+};
+int main(){
+    oops o;
+    o.setter();
+    o.getter();
+    return 0;
+}

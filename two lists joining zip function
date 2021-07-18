@@ -1,0 +1,8 @@
+
+
+list1=['A','app','ke','doct','aw']
+list2=['n','le','ep','or','ay']
+res=[]  
+for i,j in zip(list1 ,list2 ):
+    res.append(i+j)
+print(' '.join(res))

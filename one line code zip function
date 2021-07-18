@@ -1,4 +1,0 @@
-list1=['A','app','ke','doct','aw']
-list2=['n','le','ep','or','ay']
-
-print(' '.join([i+j for i,j in zip(list1 ,list2 )]))

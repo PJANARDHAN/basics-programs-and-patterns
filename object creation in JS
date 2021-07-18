@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        
+    </head>
+    <body>
+        <h2>Hello Friends</h2>
+    </body>
+</html>
+
+body {
+    
+}
+
+//object creation
+var car=
+{
+    car_brand:"tesla",
+    car_model:"modle 3",
+    price:35000,
+    driving: function (){
+        document .write("car driving ");
+    }
+}
+//method calling by using Object name
+car.driving();

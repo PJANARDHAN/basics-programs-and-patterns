@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    enum{O=-1,M,B=5,P};
+    printf ("M=%d\n",M);
+}

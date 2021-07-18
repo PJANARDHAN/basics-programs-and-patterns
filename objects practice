@@ -1,0 +1,20 @@
+class test{
+    int i,j;
+    public test (int i,int j){
+        this.i=i;
+        this.j=j;
+    }
+    public void printname (){
+        System .out.println("tested");
+    }
+}
+
+public class Program
+{
+    public static void main(String[] args) {
+        test obj= new test(5,10);
+        obj.printname();
+        test obj1=new test();
+        obj1 .printname ();
+    }
+}

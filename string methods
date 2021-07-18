@@ -1,0 +1,29 @@
+public class Program
+{
+    public static void main(String[] args) {
+        char a[]= {'c','h','a','i','r','s'};
+        
+        String s=new String (a,2,3);
+        System .out .println (s);
+        
+        String s2="control";
+        String st="care";
+        
+        boolean start=s2.startsWith(st);
+        System .out.println (start);
+        
+        String s3=s.concat(s2);
+             System .out.println (s3);
+             
+        int s4=s.compareTo(s2);
+             System .out.println (s4);
+             
+        int l=s3.length();
+             System .out.println (l);
+             
+        char c=s3.charAt(2);
+        System .out.println (c);
+        
+        
+    }
+}
